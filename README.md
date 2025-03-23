@@ -7,7 +7,8 @@
 
 - 💬 Ask me about Programming **python, lua, c, c++, c#, java**
 
-- 📫 How to reach me : Facebook, Youtube, More.. **Private**
+- 📫 How to reach me : Facebook, Youtube, More..
+- Email : **Private**
 
 - ⚡ Fun fact : im also prompt engineer **i like ChatGPT, BlackBox, Grok3, AI**
 
