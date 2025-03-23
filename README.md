@@ -11,6 +11,8 @@
 - Email : **Private**
 
 - ⚡ Fun fact : im also prompt engineer **i like ChatGPT, BlackBox, Grok3, AI**
+- Current Learning : Programming, IT, Com Sci/Eng, IOT, Robotic, Electric/Electronic By Myself
+- Current Preparing For : Robotic Engineering Major
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
