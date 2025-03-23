@@ -39,7 +39,7 @@
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="weena.chuangkud" height="30" width="40" />
   </a>
   <!-- Add your YouTube link below -->
-  <a href="[Youtube](https://www.youtube.com/@Mawmom)" target="blank">
+  <a href="https://www.youtube.com/@Mawmom" target="blank">
     <img align="center" src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube" height="30" width="40" />
   </a>
 </p>
