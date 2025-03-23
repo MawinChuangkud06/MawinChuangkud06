@@ -25,6 +25,8 @@
 # CodeForces
 - Rank : Unrated
 - Rating : Unrated
+
+## Other
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://fb.com/mawin ck" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="mawin ck" height="30" width="40" /></a>
