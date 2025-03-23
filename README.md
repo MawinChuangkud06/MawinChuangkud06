@@ -15,7 +15,9 @@
 - Doing competitive programming, codeforces, leetcode, hackerrank, more..
 - Some CyberSecurity/ Game Hacking
 - Game Develop
+- Some Math/DSA For competitive programming Well! Nerd Hobby
 - Electric/Electronic With Programming, example : Arduino Project
+- Programming 2D/3D
 - More!.. There alot i cant say it all
 
 <h3 align="left">Connect with me:</h3>
