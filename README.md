@@ -9,7 +9,7 @@
 - 📫 How to reach me : Facebook, Youtube, More..
 - Email : **Private**
 - ⚡ Fun fact : im also prompt engineer **i like ChatGPT, BlackBox, Grok3, AI**
-### What im Doing?
+# What im Doing?
 - Currently Learning Programming, IT, IOT, Com Sci/Eng, Robotic, Electric/Electronic .. More
 - Doing/Working On Private/Public Project For my Programming Skill
 - Doing competitive programming, codeforces, leetcode, hackerrank, more..
@@ -19,10 +19,10 @@
 - Electric/Electronic With Programming, example : Arduino Project
 - Programming 2D/3D
 - More!.. There alot i cant say it all
-### competitive programming Status
-# CodeChef
+# competitive programming Status
+### CodeChef
 ![CodeChef Problems Solved](https://img.shields.io/badge/CodeChef-100%20problems%20solved-brightgreen?style=flat&logo=codechef)
-# CodeForces
+### CodeForces
 - Rank : Unrated
 - Rating : Unrated
 
