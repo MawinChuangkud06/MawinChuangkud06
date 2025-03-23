@@ -20,9 +20,9 @@
 - Programming 2D/3D
 - More!.. There alot i cant say it all
 # competitive programming Status
-### CodeChef
+## CodeChef
 ![CodeChef Problems Solved](https://img.shields.io/badge/CodeChef-100%20problems%20solved-brightgreen?style=flat&logo=codechef)
-### CodeForces
+## CodeForces
 - Rank : Unrated
 - Rating : Unrated
 
