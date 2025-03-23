@@ -9,7 +9,7 @@
 - 📫 How to reach me : Facebook, Youtube, More..
 - Email : **Private**
 - ⚡ Fun fact : im also prompt engineer **i like ChatGPT, BlackBox, Grok3, AI**
-## What im Doing?
+### What im Doing?
 - Currently Learning Programming, IT, IOT, Com Sci/Eng, Robotic, Electric/Electronic .. More
 - Doing/Working On Private/Public Project For my Programming Skill
 - Doing competitive programming, codeforces, leetcode, hackerrank, more..
@@ -19,8 +19,12 @@
 - Electric/Electronic With Programming, example : Arduino Project
 - Programming 2D/3D
 - More!.. There alot i cant say it all
-## competitive programming Status
+### competitive programming Status
+# CodeChef
 ![CodeChef Problems Solved](https://img.shields.io/badge/CodeChef-100%20problems%20solved-brightgreen?style=flat&logo=codechef)
+# CodeForces
+- Rank : Unrated
+- Rating : Unrated
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://fb.com/mawin ck" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="mawin ck" height="30" width="40" /></a>
