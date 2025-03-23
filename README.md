@@ -14,7 +14,7 @@
 - Doing/Working On Private/Public Project For my Programming Skill
 - Doing competitive programming, codeforces, leetcode, hackerrank, more..
 - Some CyberSecurity/ Game Hacking
-- Game Develop
+- Game Developing(2D/3D)
 - Some Math/DSA For competitive programming Well! Nerd Hobby
 - Electric/Electronic With Programming, example : Arduino Project
 - Programming 2D/3D
