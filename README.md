@@ -9,7 +9,7 @@
 - 📫 How to reach me : Facebook, Youtube, More..
 - Email : **Private**
 - ⚡ Fun fact : im also prompt engineer **i like ChatGPT, BlackBox, Grok3, AI**
-##What im Doing?
+## What im Doing?
 - Currently Learning Programming, IT, IOT, Com Sci/Eng, Robotic, Electric/Electronic .. More
 - Doing/Working On Private/Public Project For my Programming Skill
 - Doing competitive programming, codeforces, leetcode, hackerrank, more..
