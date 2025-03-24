@@ -17,7 +17,8 @@
 - Game Developing(2D/3D)
 - Some Math/DSA For competitive programming Well! Nerd Hobby
 - Electric/Electronic With Programming, example : Arduino Project
-- Programming 2D/3D
+- Graphic Programming 2D/3D
+- OOP
 - More!.. There alot i cant say it all
 # competitive programming Status
 ## CodeChef
