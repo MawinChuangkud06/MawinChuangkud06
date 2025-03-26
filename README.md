@@ -20,6 +20,8 @@
 - Graphic Programming 2D/3D
 - OOP
 - More!.. There alot i cant say it all
+# What im Doing Actually like Currently
+- Competitive Programming, Math
 # competitive programming Status
 ## CodeChef
 ![CodeChef Problems Solved](https://img.shields.io/badge/CodeChef-100%20problems%20solved-brightgreen?style=flat&logo=codechef)
