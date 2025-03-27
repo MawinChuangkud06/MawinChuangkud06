@@ -203,12 +203,16 @@ const ll MOD = 1e9 + 7;
         return os << "(" << p.first << ", " << p.second << ")";
     }
 
-    template<typename... Ts>
-    std::ostream &operator<<(std::ostream &os, const std::tuple<Ts...> &t) {
-        os << "(";
-        ((os << (std::get<Ts>(t) << ", "), ...));
-        return os << ")";
-    }
+   template<typename... Ts>
+	std::ostream& operator<<(std::ostream& os, const std::tuple<Ts...>& t) {
+	    os << "(";
+	    bool first = true;
+	    // Proper fold expression handling
+	    ((os << (first ? (first = false, std::get<Ts>(t)) : (", " << std::get<Ts>(t)))), ...);
+	    return os << ")";
+	}
+
+
 
     template<typename T>
     inline std::ostream &operator<<(std::ostream &os, const std::deque<T> &v) {
