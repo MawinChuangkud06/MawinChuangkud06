@@ -272,7 +272,7 @@ const ll MOD = 1e9 + 7;
 #define SOL
 
 void solve() {
-	
+    LOG("Hello Coder");
 }
 
 #endif
@@ -284,5 +284,6 @@ int main() {
         freopen("input.txt", "r", stdin);
         //freopen("output.txt", "w", stdout);
     #endif
+    solve();
     return 0;
 }
