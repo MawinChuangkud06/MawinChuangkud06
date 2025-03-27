@@ -1,3 +1,58 @@
+// c++ template setup for competitive programming
+// well you can use this one below for light weight
+/*
+#include<bits/stdc++.h>
+using namespace std;
+
+#define STANDARD_TYPE
+#define STANDARD
+#define MATH
+
+#ifdef STANDARD_TYPE
+    using ulli = unsigned long long int;
+    using ll = long long;
+    using ull = unsigned long long;
+    using lli = long long int;
+    using ld = long double;
+    typedef long int int32;
+    typedef unsigned long int uint32;
+    typedef long long int int64;
+    typedef unsigned long long int  uint64;
+#endif
+
+const ll INF = 1e18;
+const ll MOD = 1e9 + 7;
+
+#ifdef STANDARD
+    #define FAST_IO ios::sync_with_stdio(0), cin.tie(nullptr), cout.tie(nullptr)
+    #define LOG(msg) cout << msg << endl
+    const char nl = '\n';
+#endif 
+
+#ifdef MATH
+    #define PI 3.1415926535897932384626433832795
+#endif
+
+#ifdef DEBUG
+    #include "algo/debug.h"
+    #define debug(...) printf(__VA_ARGS__)
+    #define DEBUG_LOG(msg) cout<< #msg << " " << msg << '\n'
+#else
+    #define debug(...) 42
+#endif
+
+void solve()
+{
+    
+}
+
+int main()
+{
+    
+}
+
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -14,7 +69,7 @@ ASCII OF SPECIAL CHARACTERS IV   ==> [123, 126]
 ASCII OF VOWELS                  ==> [97/65, 101/69, 105/73, 111/79, 117/85]
 
 */
-
+// below is heavy setup
 #define STANDARD
 #define ALGO
 #define MATH
