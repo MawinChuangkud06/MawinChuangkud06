@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-/* Litte info (might needed) (credits : viplu43)
+/* Little info (might needed) (credits : viplu43)
 
 ASCII OF NUMBERS 0-9             ==> [48, 57]
 ASCII OF UPPERCASE ALPHABETS A-Z ==> [65, 90]
@@ -15,7 +15,6 @@ ASCII OF VOWELS                  ==> [97/65, 101/69, 105/73, 111/79, 117/85]
 
 */
 
-
 #define STANDARD
 #define ALGO
 #define MATH
@@ -23,7 +22,6 @@ ASCII OF VOWELS                  ==> [97/65, 101/69, 105/73, 111/79, 117/85]
 #define ALGO_DEBUG
 
 #ifdef STANDARD_TYPE
-
     using ulli = unsigned long long int;
     using ll = long long;
     using ull = unsigned long long;
@@ -57,7 +55,6 @@ const ll MOD = 1e9 + 7;
 #endif
 
 #ifdef ALGO
-    {
     // thing for make life easier
     #define SORT_ARR(arr) sort(arr.begin(), arr.end())
     // ck stand for "check"
@@ -172,19 +169,16 @@ const ll MOD = 1e9 + 7;
         return arr[n / 2];
     }
 
-
     #define SORT_FIXED_ARR(arr) sort(arr, arr + sizeof(arr) / sizeof(arr[0]))
     #define all(x) (x).begin(), (x).end()
 
     void yes() { cout<<"YES\n"; }
     void no() { cout<<"NO\n"; }
-}
     // debugging
     #ifdef ALGO_DEBUG
-    {
     template<typename T>
     inline std::ostream &operator<<(std::ostream &os, const std::vector<T> &v) {
-        os << "[";
+        os << "["; 
         for (size_t i = 0; i < v.size(); ++i) {
             if (i > 0) os << ", ";
             os << v[i];
@@ -194,13 +188,13 @@ const ll MOD = 1e9 + 7;
 
     template<typename T>
     inline std::ostream &operator<<(std::ostream &os, const std::list<T> &v) {
-        os << "[";
-        bool first = true;
-        for (const auto &elem : v) {
-            if (!first) os << ", ";
-            os << elem;
-            first = false;
-        }
+        os << "["; 
+        bool first = true; 
+        for (const auto &elem : v) { 
+            if (!first) os << ", "; 
+            os << elem; 
+            first = false; 
+        } 
         return os << "]";
     }
 
@@ -218,79 +212,74 @@ const ll MOD = 1e9 + 7;
 
     template<typename T>
     inline std::ostream &operator<<(std::ostream &os, const std::deque<T> &v) {
-        os << "[";
+        os << "["; 
         for (size_t i = 0; i < v.size(); ++i) {
-            if (i > 0) os << ", ";
-            os << v[i];
+            if (i > 0) os << ", "; 
+            os << v[i]; 
         }
         return os << "]";
     }
 
     template<typename T>
     std::ostream &operator<<(std::ostream &os, std::queue<T> q) {
-        os << "[";
+        os << "["; 
         while (!q.empty()) {
-            os << q.front();
-            q.pop();
-            if (!q.empty()) os << ", ";
+            os << q.front(); 
+            q.pop(); 
+            if (!q.empty()) os << ", "; 
         }
         return os << "]";
     }
 
     template<typename T>
     std::ostream &operator<<(std::ostream &os, std::stack<T> s) {
-        os << "[";
+        os << "["; 
         std::vector<T> elems;
         while (!s.empty()) {
-            elems.push_back(s.top());
-            s.pop();
-        }
+            elems.push_back(s.top()); 
+            s.pop(); 
+        } 
         for (size_t i = elems.size(); i > 0; --i) {
-            os << elems[i - 1];
-            if (i > 1) os << ", ";
-        }
+            os << elems[i - 1]; 
+            if (i > 1) os << ", "; 
+        } 
         return os << "]";
     }
 
     template<typename T>
     std::ostream &operator<<(std::ostream &os, std::priority_queue<T> pq) {
-        os << "[";
+        os << "["; 
         std::vector<T> elems;
         while (!pq.empty()) {
-            elems.push_back(pq.top());
-            pq.pop();
-        }
+            elems.push_back(pq.top()); 
+            pq.pop(); 
+        } 
         for (size_t i = elems.size(); i > 0; --i) {
-            os << elems[i - 1];
-            if (i > 1) os << ", ";
-        }
+            os << elems[i - 1]; 
+            if (i > 1) os << ", "; 
+        } 
         return os << "]";
     }
 
-} 
     #endif
 #endif
 
 #ifndef SOL
 #define SOL
 
-void solve()
-{
+void solve() {
     cout << "Hello CodeForces!" << endl;
 }
 
 #endif
 
 //#define ONLINE_JUDGE
-int main()
-{
-    // FAST_IO;
-    //solve();
+int main() {
+    FAST_IO;
     #ifdef ONLINE_JUDGE
         freopen("input.txt", "r", stdin);
         //freopen("output.txt", "w", stdout);
     #endif
-    int x = read(int);
-    cout << x;
+    solve();
     return 0;
 }
