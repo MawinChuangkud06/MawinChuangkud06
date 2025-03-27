@@ -204,13 +204,13 @@ const ll MOD = 1e9 + 7;
     }
 
    template<typename... Ts>
-	std::ostream& operator<<(std::ostream& os, const std::tuple<Ts...>& t) {
-	    os << "(";
-	    bool first = true;
-	    // Proper fold expression handling
-	    ((os << (first ? (first = false, std::get<Ts>(t)) : (", " << std::get<Ts>(t)))), ...);
-	    return os << ")";
-	}
+    std::ostream& operator<<(std::ostream& os, const std::tuple<Ts...>& t) {
+        os << "(";
+        bool first = true;
+        // Proper fold expression handling
+        ((os << (first ? (first = false, std::get<Ts>(t)) : (", " << std::get<Ts>(t)))), ...);
+        return os << ")";
+    }
 
 
 
@@ -272,18 +272,17 @@ const ll MOD = 1e9 + 7;
 #define SOL
 
 void solve() {
-    cout << "Hello CodeForces!" << endl;
+	
 }
 
 #endif
 
-//#define ONLINE_JUDGE
+
 int main() {
     FAST_IO;
-    #ifdef ONLINE_JUDGE
+    #ifndef ONLINE_JUDGE
         freopen("input.txt", "r", stdin);
         //freopen("output.txt", "w", stdout);
     #endif
-    solve();
     return 0;
 }
