@@ -1,6 +1,7 @@
 // c++ template setup for competitive programming
 // well you can use this one below for light weight
 /*
+#include<stdio.h>
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -34,7 +35,7 @@ const ll MOD = 1e9 + 7;
 #endif
 
 #ifdef DEBUG
-    #include "algo/debug.h"
+    //#include "algo/debug.h"
     #define debug(...) printf(__VA_ARGS__)
     #define DEBUG_LOG(msg) cout<< #msg << " " << msg << '\n'
 #else
@@ -57,7 +58,6 @@ int main()
 }
 
 */
-
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -107,7 +107,7 @@ const ll MOD = 1e9 + 7;
 #endif
 
 #ifdef DEBUG
-    #include "algo/debug.h"
+    //#include "algo/debug.h"
     #define debug(...) printf(__VA_ARGS__)
     #define DEBUG_LOG(msg) cout<< #msg << " " << msg << '\n'
 #else
