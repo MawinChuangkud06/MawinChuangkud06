@@ -1,7 +1,6 @@
 // c++ template setup for competitive programming
 // well you can use this one below for light weight
 /*
-#include<stdio.h>
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -35,7 +34,7 @@ const ll MOD = 1e9 + 7;
 #endif
 
 #ifdef DEBUG
-    //#include "algo/debug.h"
+    #include "algo/debug.h"
     #define debug(...) printf(__VA_ARGS__)
     #define DEBUG_LOG(msg) cout<< #msg << " " << msg << '\n'
 #else
@@ -58,6 +57,7 @@ int main()
 }
 
 */
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -91,10 +91,10 @@ ASCII OF VOWELS                  ==> [97/65, 101/69, 105/73, 111/79, 117/85]
     typedef unsigned long int uint32;
     typedef long long int int64;
     typedef unsigned long long int  uint64;
+    const ll INF = 1e18;
+    const ll MOD = 1e9 + 7;
 #endif
 
-const ll INF = 1e18;
-const ll MOD = 1e9 + 7;
 
 #ifdef STANDARD
     #define FAST_IO ios::sync_with_stdio(0), cin.tie(nullptr), cout.tie(nullptr)
@@ -107,7 +107,7 @@ const ll MOD = 1e9 + 7;
 #endif
 
 #ifdef DEBUG
-    //#include "algo/debug.h"
+    #include "algo/debug.h"
     #define debug(...) printf(__VA_ARGS__)
     #define DEBUG_LOG(msg) cout<< #msg << " " << msg << '\n'
 #else
@@ -118,67 +118,67 @@ const ll MOD = 1e9 + 7;
     // thing for make life easier
     #define SORT_ARR(arr) sort(arr.begin(), arr.end())
     // ck stand for "check"
-    template<class T> bool ckmin(T&a, T&b) { 
+    template<class T> inline bool ckmin(T&a, T&b) { 
         return b < a ? a = b, 1 : 0; 
     }
     
-    template<class T> bool ckmax(T&a, T&b) { 
+    template<class T> inline bool ckmax(T&a, T&b) { 
         return a < b ? a = b, 1 : 0; 
     }
 
     template<typename T> 
-    T read() {
+    inline T read() {
         T x;
         cin>>x;
         return x;
     }
     #define read(type) read<type>()
 
-    ll min(ll a,int b) { 
+    inline ll min(ll a,int b) { 
         return (a < b) ? a : b; 
     }
 
-    ll min(int a,ll b) { 
+    inline ll min(int a,ll b) { 
         return (a < b) ? a : b; 
     }
 
-    ll max(ll a,int b) { 
+    inline ll max(ll a,int b) { 
         return (a > b) ? a : b; 
     }
 
-    ll max(int a,ll b) { 
+    inline ll max(int a,ll b) { 
         return (a > b) ? a : b; 
     }
 
-    ll gcd(ll a,ll b) { 
+    inline ll gcd(ll a,ll b) { 
         return (b == 0) ? a : gcd(b, a % b); 
     }
 
-    ll lcm(ll a,ll b) { 
+    inline ll lcm(ll a,ll b) { 
         return a / gcd(a, b) * b; 
     }
 
-    bool prime(ll a) { 
+    inline bool prime(ll a) { 
         if (a == 1) return false; 
         for (ll i = 2; i * i <= a; ++i) 
             if (a % i == 0) return false; 
         return true; 
     }
 
-    template<typename T> void swap(T&a, T&b) {
+    template<typename T> inline void swap(T&a, T&b) {
         T temp = a; 
         a = b; 
         b = temp; 
     }
 
-    string to_upper(string a) { 
+    inline string to_upper(string a) { 
         for (char &c : a) 
             if (c >= 'a' && c <= 'z') 
                 c -= 'a' - 'A'; 
         return a; 
     }
 
-    string to_lower(string a) { 
+    inline string to_lower(string a) { 
         for (char &c : a) 
             if (c >= 'A' && c <= 'Z') 
                 c += 'a' - 'A'; 
@@ -186,7 +186,7 @@ const ll MOD = 1e9 + 7;
     }
 
     template<typename T>
-    T findMin(const std::vector<T>& arr) {
+    inline T findMin(const std::vector<T>& arr) {
         T min_val = arr[0];
         for (const auto& x : arr) {
             if (x < min_val) min_val = x;
@@ -195,7 +195,7 @@ const ll MOD = 1e9 + 7;
     }
 
     template<typename T>
-    T findMax(const std::vector<T>& arr) {
+    inline T findMax(const std::vector<T>& arr) {
         T max_val = arr[0];
         for (const auto& x : arr) {
             if (x > max_val) max_val = x;
@@ -204,7 +204,7 @@ const ll MOD = 1e9 + 7;
     }
 
     template<typename T>
-    int countOccurrences(const std::vector<T>& arr, const T& value) {
+    inline int countOccurrences(const std::vector<T>& arr, const T& value) {
         int count = 0;
         for (const auto& x : arr) {
             if (x == value) ++count;
@@ -213,14 +213,14 @@ const ll MOD = 1e9 + 7;
     }
 
     template<typename T>
-    void removeDuplicates(std::vector<T>& arr) {
+    inline void removeDuplicates(std::vector<T>& arr) {
         std::sort(arr.begin(), arr.end());
         auto last = std::unique(arr.begin(), arr.end());
         arr.erase(last, arr.end());
     }
 
     template<typename T>
-    T findMedian(std::vector<T>& arr) {
+    inline T findMedian(std::vector<T>& arr) {
         std::sort(arr.begin(), arr.end());
         size_t n = arr.size();
         if (n % 2 == 0) {
@@ -232,8 +232,8 @@ const ll MOD = 1e9 + 7;
     #define SORT_FIXED_ARR(arr) sort(arr, arr + sizeof(arr) / sizeof(arr[0]))
     #define all(x) (x).begin(), (x).end()
 
-    void yes() { cout<<"YES\n"; }
-    void no() { cout<<"NO\n"; }
+    inline void yes() { printf("YES\n"); }
+    inline void no() { printf("NO\n"); }
     // debugging
     #ifdef ALGO_DEBUG
     template<typename T>
@@ -331,7 +331,7 @@ const ll MOD = 1e9 + 7;
 #ifndef SOL
 #define SOL
 
-void solve() {
+inline void solve() {
     LOG("Hello Coder");
 }
 
