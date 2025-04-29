@@ -23,6 +23,7 @@
 # What im Doing Actually like Currently
 - Learning Robotic Engineering
 - Project Based Learning
+- All About Programming 
 # competitive programming Status
 ## CodeChef
 ![CodeChef Problems Solved](https://img.shields.io/badge/CodeChef-100%20problems%20solved-brightgreen?style=flat&logo=codechef)
