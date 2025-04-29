@@ -12,7 +12,7 @@
 # What im Doing (sometime)?
 - Currently Learning Programming, IT, IOT, Com Sci/Eng, Robotic, Electric/Electronic .. More
 - Doing/Working On Private/Public Project For my Programming Skill
-- Doing competitive programming, codeforces, leetcode, hackerrank, more..
+- Doing competitive programming, codeforces, leetcode, hackerrank, more.. (i failed cp so i do project based)
 - Some CyberSecurity/ Game Hacking
 - Game Developing(2D/3D)
 - Some Math/DSA For competitive programming Well! Nerd Hobby (i failed cp so i do project based)
@@ -21,13 +21,14 @@
 - OOP
 - More!.. There alot i cant say it all
 # What im Doing Actually like Currently
-- Competitive Programming, Math
+- Learning Robotic Engineering
+- Project Based Learning
 # competitive programming Status
 ## CodeChef
 ![CodeChef Problems Solved](https://img.shields.io/badge/CodeChef-100%20problems%20solved-brightgreen?style=flat&logo=codechef)
 ## CodeForces
-- Rank : Unrated
-- Rating : Unrated
+- Rank : ...
+- Rating : 800
 
 # Other
 <h3 align="left">Connect with me:</h3>
