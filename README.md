@@ -15,7 +15,7 @@
 - Doing competitive programming, codeforces, leetcode, hackerrank, more..
 - Some CyberSecurity/ Game Hacking
 - Game Developing(2D/3D)
-- Some Math/DSA For competitive programming Well! Nerd Hobby
+- Some Math/DSA For competitive programming Well! Nerd Hobby (i failed cp so i do project based)
 - Electric/Electronic With Programming, example : Arduino Project
 - Graphic Programming 2D/3D
 - OOP
